@@ -10,6 +10,7 @@ public class Elyos extends Bohatyr {
     public String getChief(){
         return this.chief;
     }
+
     public void setDay_attack(boolean new_day_attack){
         this.day_attack=new_day_attack;
     }

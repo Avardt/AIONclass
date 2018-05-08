@@ -1,8 +1,23 @@
 package AIONclasses;
 
 public class Balaurs extends Bohatyr {
-    String devil;
-    boolean monster_attack;
+    private String devil;
+    private boolean monster_attack;
+
+    public void setDevil(String new_devil){
+        this.devil=new_devil;
+    }
+    public String getDevil(){
+        return this.devil;
+    }
+
+    public void setMonster_attack(boolean new_monster_attack){
+        this.monster_attack=new_monster_attack;
+    }
+    public boolean getMonster_attack(){
+        return this.monster_attack;
+    }
+
     public Balaurs(){
         super();
         this.devil="";
